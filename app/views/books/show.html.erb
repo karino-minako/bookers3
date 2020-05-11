@@ -1,0 +1,8 @@
+<%= flash[:note] %>
+<h4>title</h4>
+<%= @book.title %>
+<h4>body</h4>
+<%= @book.body %>
+<br>
+<%= link_to "Edit", edit_book_path(@book) %>
+<%= link_to "Back", books_path %>
